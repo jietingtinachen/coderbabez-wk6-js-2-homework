@@ -38,7 +38,8 @@ $(document).ready(function(){
 /* CHALLENGE #4:
 - when a user double clicks on CHANGE ME, change the text to "I changed"!*/
   $(".change").click(function(){
-    $(this).replaceWith( "<div>I changed!</div>" );
+    alert("changed!");
+    $(this).html( "I changed!" );
   });
 
   });
